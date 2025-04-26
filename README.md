@@ -1,4 +1,4 @@
-# 🚗 TrafficVision AI - Intelligent Vehicle Tracking System
+# 🚗 TrafficVision AI - Smart Traffic Monitoring & Analytics System
 
 ![Project Banner](https://i.ibb.co/gX7jSgL/white.png)
 
@@ -25,6 +25,14 @@
 - Traffic intensity classification (Low/Moderate/Heavy)
 - Directional vehicle counting (Northbound/Southbound)
 - Vehicle type statistics (Cars, Trucks, Buses, etc.)
+  
+### 🔍 License Plate Recognition
+- **Plate Recognizer API Integration**
+  - Works on dark, low-res (480p), and blurry images
+  - Handles tough angles (up to 45° skew)
+  - Recognizes plates from 90+ countries
+  - Vehicle type/model detection
+  - Optimized for USA/India/Brazil plates
 
 ### 📄 Automated Reporting
 - Professional PDF reports with visual evidence
@@ -39,8 +47,7 @@
 |--------------------|------------------|
 | Object Detection   | YOLOv11          |
 | Object Tracking    | ByteTrack        |
-| OCR                | PaddleOCR        |
-| Video Processing   | OpenCV           |
+
 
 ### Backend
 | Component          | Technology       |
@@ -65,14 +72,14 @@
 
 ### Setup
 # Clone repository
-git clone https://github.com/mahmoudibrahim2002/Vehicle-Tracking-System.git
+!git clone https://github.com/mahmoudibrahim2002/Vehicle-Tracking-System.git
 cd Vehicle-Tracking-System
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Set environment variables
-echo "PLATE_RECOGNIZER_API_KEY=your_api_key_here" > .env
+"PLATE_RECOGNIZER_API_KEY=your_api_key_here" in vehicle_tracking.py
 
 ## 🚀 Usage
 
