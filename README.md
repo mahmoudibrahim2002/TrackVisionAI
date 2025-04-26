@@ -1,7 +1,5 @@
 # 🚗 TrafficVision AI - Smart Traffic Monitoring & Analytics System
 
-![Project Banner](https://i.ibb.co/gX7jSgL/white.png)
-
 ## 🌐 Overview
 **TrafficVision AI** is an advanced computer vision system that automates vehicle tracking, speed estimation, and traffic analysis. Built with YOLOv11, ByteTrack, and PaddleOCR, it provides comprehensive traffic monitoring with:
 - Real-time vehicle detection and classification
@@ -10,7 +8,7 @@
 - PDF violation reports generation
 - Interactive analytics dashboard
 
-[![Demo Video](https://img.youtube.com/vi/7iGKksFZZzY/maxresdefault.jpg)](https://youtu.be/7iGKksFZZzY)
+[![Demo Video](https://i.ibb.co/X9k3jHz/Untitled-2.png)]([https://youtu.be/7iGKksFZZzY](https://youtu.be/Clan8smF0LM))
 
 ## ✨ Key Features
 
@@ -28,11 +26,11 @@
   
 ### 🔍 License Plate Recognition
 - **Plate Recognizer API Integration**
-  - Works on dark, low-res (480p), and blurry images
-  - Handles tough angles (up to 45° skew)
-  - Recognizes plates from 90+ countries
-  - Vehicle type/model detection
-  - Optimized for USA/India/Brazil plates
+- Works on dark, low-res (480p), and blurry images
+- Handles tough angles (up to 45° skew)
+- Recognizes plates from 90+ countries
+- Vehicle type/model detection
+- Optimized for USA/India/Brazil plates
 
 ### 📄 Automated Reporting
 - Professional PDF reports with visual evidence
