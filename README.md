@@ -73,3 +73,14 @@ pip install -r requirements.txt
 
 # Set environment variables
 echo "PLATE_RECOGNIZER_API_KEY=your_api_key_here" > .env
+
+## 🚀 Usage
+
+### Streamlit Interface
+streamlit run app.py
+
+## 📬 Contact
+- 🤝 **Connect on LinkedIn**: [LinkedIn](mahmoud-ibrahim2002)
+
+### 🙏 Acknowledgments
+- **Plate Recognizer for OCR API**
