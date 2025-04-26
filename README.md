@@ -81,7 +81,7 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 ### Web Dashboard
-streamlit run app
+streamlit run app.py
 
 ## 📬 Contact
 - 🤝 **Connect on LinkedIn**: www.linkedin.com/in/maahmoud-ibrahim/
