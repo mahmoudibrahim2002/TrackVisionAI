@@ -1,7 +1,7 @@
 # 🚗 TrafficVision AI - Smart Traffic Monitoring & Analytics System
 
 ## 🌐 Overview
-**TrafficVision AI** is an advanced computer vision system that automates vehicle tracking, speed estimation, and traffic analysis. Built with YOLOv11, ByteTrack, and PaddleOCR, it provides comprehensive traffic monitoring with:
+**TrafficVision AI** is an advanced computer vision system that automates vehicle tracking, speed estimation, and traffic analysis. Built with YOLOv11, ByteTrack, and License Plate Recognition, it provides comprehensive traffic monitoring with:
 - Real-time vehicle detection and classification
 - Precise speed measurement (±2km/h accuracy)
 - Automated license plate recognition (90+ countries)
