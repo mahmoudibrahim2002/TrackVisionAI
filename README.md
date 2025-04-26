@@ -70,8 +70,7 @@
 
 ### Setup
 # Clone repository
-!git clone https://github.com/mahmoudibrahim2002/Vehicle-Tracking-System.git
-cd Vehicle-Tracking-System
+!git clone https://github.com/mahmoudibrahim2002/TrackVisionAI.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -81,11 +80,11 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 
-### Streamlit Interface
-streamlit run app.py
+### Web Dashboard
+streamlit run app
 
 ## 📬 Contact
-- 🤝 **Connect on LinkedIn**: [LinkedIn](mahmoud-ibrahim2002)
+- 🤝 **Connect on LinkedIn**: www.linkedin.com/in/maahmoud-ibrahim/
 
 ### 🙏 Acknowledgments
 - **Plate Recognizer for OCR API**
