@@ -64,7 +64,6 @@
 - FFmpeg (for video processing)
 
 ### Setup
-```bash
 # Clone repository
 git clone https://github.com/mahmoudibrahim2002/Vehicle-Tracking-System.git
 cd Vehicle-Tracking-System
