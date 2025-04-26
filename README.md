@@ -8,7 +8,7 @@
 - PDF violation reports generation
 - Interactive analytics dashboard
 
-[![Demo Video](https://i.ibb.co/X9k3jHz/Untitled-2.png)]([https://youtu.be/7iGKksFZZzY](https://youtu.be/Clan8smF0LM))
+[![TrafficVision AI Demo](https://i.ibb.co/X9k3jHz/Untitled-2.png)](https://youtu.be/Clan8smF0LM) Click the thumbnail above to watch the demo on YouTube
 
 ## ✨ Key Features
 
