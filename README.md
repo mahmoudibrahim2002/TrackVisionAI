@@ -65,7 +65,7 @@
 
 ### Prerequisites
 - Python 3.8+
-- NVIDIA GPU (recommended)
+- GPU (recommended)
 - FFmpeg (for video processing)
 
 ### Setup
