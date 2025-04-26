@@ -1,46 +1,76 @@
-# 🚗 TrafficVision AI - Intelligent Vehicle Tracking & Speed Estimation System
+# 🚗 TrafficVision AI - Intelligent Vehicle Tracking System
 
 ![Project Banner](https://i.ibb.co/gX7jSgL/white.png)
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.com)
 
 ## 🌐 Overview
-**TrafficVision AI** is a state-of-the-art traffic monitoring system that combines computer vision and machine learning to deliver:
+**TrafficVision AI** is an advanced computer vision system that automates vehicle tracking, speed estimation, and traffic analysis. Built with YOLOv11, ByteTrack, and PaddleOCR, it provides comprehensive traffic monitoring with:
+- Real-time vehicle detection and classification
+- Precise speed measurement (±2km/h accuracy)
+- Automated license plate recognition (90+ countries)
+- PDF violation reports generation
+- Interactive analytics dashboard
 
-- Real-time vehicle detection and classification (cars, trucks, buses, motorcycles)
-- Accurate speed estimation (±2km/h precision using perspective transform)
-- Automated license plate recognition via Plate Recognizer API
-- Comprehensive violation reporting with visual evidence
-- Interactive analytics dashboard with traffic heatmaps
+[![Demo Video](https://img.youtube.com/vi/7iGKksFZZzY/maxresdefault.jpg)](https://youtu.be/7iGKksFZZzY)
 
-**Key Innovations:**
-- 🎯 95% detection accuracy in challenging conditions (rain, low-light, occlusion)
-- ⚡ Real-time processing at 25 FPS on RTX 3060
-- 🌍 Supports license plates from 90+ countries
+## ✨ Key Features
 
-## ✨ Features
+### 🚦 Core Tracking
+- **YOLOv11 Detection**: 90%+ accuracy vehicle detection
+- **ByteTrack Tracking**: Robust multi-object tracking
+- **Perspective Transform**: Accurate real-world speed estimation
+- **Kalman Filtering**: Noise-resistant speed calculations
 
-### 🚘 Core Vehicle Tracking
-| Feature | Technology | Performance |
-|---------|------------|-------------|
-| Multi-class Detection | YOLOv11 | 90.5% mAP@0.5 |
-| Object Tracking | ByteTrack | 0.82 MOTA |
-| Speed Estimation | Kalman Filter + Perspective Transform | ±2 km/h accuracy |
-| Traffic Counting | Dual-line Logic | 98% count accuracy |
+### 📊 Analytics
+- Speed violation detection (configurable thresholds)
+- Traffic intensity classification (Low/Moderate/Heavy)
+- Directional vehicle counting (Northbound/Southbound)
+- Vehicle type statistics (Cars, Trucks, Buses, etc.)
 
-### 🔍 License Plate Recognition
-- **Plate Recognizer API Integration**
-  - Works on dark, low-res (480p), and blurry images
-  - Handles tough angles (up to 45° skew)
-  - Recognizes plates from 90+ countries
-  - Vehicle type/model detection
-  - Optimized for USA/India/Brazil plates
+### 📄 Automated Reporting
+- Professional PDF reports with visual evidence
+- License plate recognition via Plate Recognizer API
+- Violation documentation with timestamps
+- Batch processing for multiple videos
 
-### 📊 Analytics & Reporting
-```mermaid
-graph TD
-    A[Raw Video] --> B(Vehicle Detection)
-    B --> C{License Plate}
-    C -->|Detected| D[API Recognition]
-    C -->|Not Detected| E[Manual Review]
-    D --> F[PDF Report Generation]
-    F --> G[Analytics Dashboard]
+## 🛠️ Technical Stack
+
+### Computer Vision
+| Component          | Technology       |
+|--------------------|------------------|
+| Object Detection   | YOLOv11          |
+| Object Tracking    | ByteTrack        |
+| OCR                | PaddleOCR        |
+| Video Processing   | OpenCV           |
+
+### Backend
+| Component          | Technology       |
+|--------------------|------------------|
+| API Integration    | Plate Recognizer |
+| Report Generation  | FPDF2            |
+| Data Processing    | NumPy/Pandas     |
+
+### Frontend
+| Component          | Technology       |
+|--------------------|------------------|
+| Dashboard          | Streamlit        |
+| Visualization      | Plotly           |
+| UI Styling         | Custom CSS       |
+
+## 📦 Installation
+
+### Prerequisites
+- Python 3.8+
+- NVIDIA GPU (recommended)
+- FFmpeg (for video processing)
+
+### Setup
+```bash
+# Clone repository
+git clone https://github.com/mahmoudibrahim2002/Vehicle-Tracking-System.git
+cd Vehicle-Tracking-System
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set environment variables
+echo "PLATE_RECOGNIZER_API_KEY=your_api_key_here" > .env
